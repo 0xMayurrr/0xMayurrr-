@@ -186,7 +186,7 @@
 <div align="center">
 
 <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0xMayurrr&theme=tokyonight"/>
-<img height="190em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xMayurrr&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FFA3&text_color=c9d1d9&langs_count=8"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xMayurrr&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FFA3&text_color=c9d1d9&langs_count=8&cache_seconds=1800"/>
 
 </div>
 
