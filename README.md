@@ -207,26 +207,39 @@ An n8n-style workflow builder where users create automated crypto trading strate
 ---
 
 <details open>
-<summary><b>🟣 VibeStay — *(add your one-liner bro)*</b></summary>
+<summary><b>🟣 VibeStay — Vibe-Driven Stay Booking Platform</b></summary>
 
 <br/>
 
 [![Repo](https://img.shields.io/badge/Repo-0xMayurrr/VibeStay-181717?style=flat-square&logo=github)](https://github.com/0xMayurrr/VibeStay)
 
-> 📌 *Add your description + tech stack here*
+> *Not just booking stays — it's about finding your vibe.*
+
+A modern stay booking platform that redefines how users discover accommodations — filter by **mood, aesthetics, and preferences**, not just location.
+
+- 🎨 Smart filtering by vibe, mood, and aesthetic — beyond the usual location-based search
+- ⚡ Seamless UI/UX with dynamic listings and visually engaging interfaces
+- 🔄 Real-time interactions that make browsing and booking feel effortless
+- 📱 Performance-first, fully responsive across all devices
 
 </details>
 
 ---
 
 <details open>
-<summary><b>⚪ Rotaract Club Dashboard — Club Operations Made Clean</b></summary>
+<summary><b>⚪ Rotaract Club Dashboard — From Chaos to Coordination</b></summary>
 
 <br/>
 
-> A dedicated management dashboard for the Rotaract Club — events, members, activity logs, all in one place.
+> *From chaos to coordination — everything your club needs, in one dashboard.*
 
-> 📌 *Add your tech stack + repo link here*
+A centralized digital dashboard built to streamline and manage all Rotaract Club activities in one place.
+
+- 📅 **Event management** — create, track, and coordinate club events end-to-end
+- 👥 **Member coordination** — manage roles, attendance, and member records
+- 📢 **Announcements** — real-time updates and club-wide communication tools
+- 🧹 Digitizes manual club operations — cleaner workflows, better transparency
+- 📱 Clean, responsive interface built for both organizers and members
 
 </details>
 
