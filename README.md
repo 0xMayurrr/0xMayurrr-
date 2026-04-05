@@ -95,23 +95,10 @@ contract Mayur {
 
 > **Infura/Alchemy-level features without the vendor lock-in.** Your own gateway. Your own rules.
 
-Forge your own gateway to the blockchain ⚡ — a self-hostable, production-ready RPC provider for Ethereum and EVM chains.
-
-- 🌐 Supports **Ethereum, Polygon, BSC, Arbitrum, Sepolia** out of the box
-- 🔁 Multi-node failover — shuffles across configured nodes, retries on failure
-- 🔑 API key auth with **Free (20 req/min) / Pro (100 req/min)** tiered rate limiting
-- 💾 Response caching (10s TTL) for `eth_blockNumber`, `eth_chainId`, `eth_gasPrice`
-- 🛡️ Method blacklist — blocks `eth_sendRawTransaction`, `eth_sign` by default
-- 📊 Real-time **WebSocket dashboard** with live logs, charts, and stats
-- 🛠️ Full **CLI tool** — `rpcforge init`, `keys create`, `stats`, and more
-- 🐳 Docker + Docker Compose · Railway backend · Vercel frontend
-
-```bash
-# Drop it in like any RPC provider
-curl -X POST https://rpcforge-production.up.railway.app/eth \
-  -H "x-api-key: YOUR_KEY" \
-  -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
-```
+- 🌐 Multi-chain support — Ethereum, Polygon, BSC, Arbitrum, Sepolia out of the box
+- 🔁 Multi-node failover + per-key rate limiting (Free: 20/min · Pro: 100/min)
+- 📊 Real-time **WebSocket dashboard** · response caching · method blacklist
+- 🛠️ Full **CLI tool** + Docker support · Railway backend · Vercel frontend
 
 </details>
 
@@ -139,22 +126,29 @@ An n8n-style workflow builder where users create automated crypto trading strate
 ---
 
 <details open>
-<summary><b>🟡 ChainSplit — Decentralized Bill Splitting on Cronos</b></summary>
+<summary><b>🟡 ChainSplit — Decentralized Expense Splitting on Cronos</b></summary>
 
 <br/>
 
+[![Live](https://img.shields.io/badge/Live-chainsplit.vercel.app-646cf2?style=flat-square&logo=vercel)](https://chainsplit.vercel.app)
 [![Repo](https://img.shields.io/badge/Repo-0xMayurrr/ChainSplit-181717?style=flat-square&logo=github)](https://github.com/0xMayurrr/ChainSplit)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![Cronos](https://img.shields.io/badge/Cronos_EVM-002D74?style=flat-square)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Wagmi](https://img.shields.io/badge/Wagmi-1C1C1C?style=flat-square)
+![Solidity](https://img.shields.io/badge/Solidity_0.8.24-363636?style=flat-square&logo=solidity&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Wagmi](https://img.shields.io/badge/Wagmi_v2-1C1C1C?style=flat-square)
+![RainbowKit](https://img.shields.io/badge/RainbowKit-032463?style=flat-square)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Cronos](https://img.shields.io/badge/Cronos_EVM-002D74?style=flat-square&logo=ethereum&logoColor=white)
 
-> Split bills on-chain. No IOUs. No awkward reminders. The contract handles it.
+> Split bills. Settle debts. On-chain. Trustlessly. No middlemen.
 
-- 📜 `ChainSplitFactory` + `GroupVault` contracts — **live on Cronos Testnet**
-- 💸 Groups create shared vaults, members contribute, splits auto-execute on-chain
-- 🔗 Node.js + MongoDB backend · React + Wagmi frontend
-- 📍 Contract: `0x7d828173126408b4fbdd3cef614698d452be5a3e`
+- 🏦 Each group deploys its own `GroupVault` contract — no shared custody
+- 💸 Equal & custom splits + greedy debt-minimization algo for optimal settlements
+- 🤝 `settleDebt()` — peer-to-peer on-chain settlement with 1% protocol fee
+- 🔐 Custom `nonReentrant` guard · `onlyAdmin/onlyMember` access control
+- 🌐 RainbowKit + WalletConnect v2 · IPFS metadata via Pinata · real-time activity feed
+
+📍 Factory: `0xe9256300bb409b5Cf8CF16aDD6A0aDB0cc72E5bf` · Cronos Testnet (Chain ID: 338)
 
 </details>
 
@@ -211,6 +205,7 @@ An n8n-style workflow builder where users create automated crypto trading strate
 
 <br/>
 
+[![Live](https://img.shields.io/badge/Live-vibestayy.netlify.app-00C7B7?style=flat-square&logo=netlify)](https://vibestayy.netlify.app/)
 [![Repo](https://img.shields.io/badge/Repo-0xMayurrr/VibeStay-181717?style=flat-square&logo=github)](https://github.com/0xMayurrr/VibeStay)
 
 > *Not just booking stays — it's about finding your vibe.*
@@ -267,13 +262,16 @@ A centralized digital dashboard built to streamline and manage all Rotaract Club
 
 | Event | Role / Result |
 |---|---|
+| **Tech Masters '26** | 🏆 Winner |
+| **Google Developer Hackathon** | 🥈 Runner Up |
+| **RAC-A-THON** | 🏆 Winner |
 | **Hack Beyond The Limits** | 🛠️ Technical Organizer — 24-hour hackathon |
-| **HACKTU 6.0** | 🥇 National Placement |
-| **WE Hack** | 🥇 National Placement |
-| **Hack N Win 2.0** | 🥇 National Placement |
-| **Deep Funding** | 🥇 National Placement |
-| **Build on Aptos** | 🥇 National Placement |
-| **Pivot** | 🥇 National Placement |
+| **HACKTU 6.0** | 🎯 Finalist |
+| **WE Hack** | 🎯 Top 6 |
+| **Hack N Win 2.0** | 🎯 Finalist |
+| **Deep Funding** | 🎯 Top 5 |
+| **Build on Aptos** | 🎯 Finalist |
+| **Pivot** | 🎯 Finalist |
 | **Smart India Hackathon** | 🧑‍🏫 Team Mentor |
 | **Future Interns** | 📌 Selected — Blockchain & Crypto Internship |
 
