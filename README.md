@@ -175,6 +175,28 @@ An n8n-style workflow builder where users create automated crypto trading strate
 
 </details>
 
+<details open>
+<summary><b>🔵 CryptoWallet — Institutional-Grade Mobile Ethereum Wallet</b></summary>
+
+<br/>
+
+[![Repo](https://img.shields.io/badge/Repo-0xMayurrr/CryptoWallet-181717?style=flat-square&logo=github)](https://github.com/0xMayurrr/CryptoWallet)
+![Stars](https://img.shields.io/github/stars/0xMayurrr/CryptoWallet?style=flat-square&color=a78bfa)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logoColor=white)
+
+> **Institutional-grade security. Silky-smooth UX.** Manage your Ethereum & ERC-20 assets with zero compromise.
+
+- 🔐 **Vault-Grade Security** — Seed phrases generated on-device and stored in high-security iOS/Android Keychains (AES-256)
+- 📊 **Real-time Analytics** — Interactive charts and portfolio tracking via optimized WebSocket price feeds
+- 🔄 **Unified Ecosystem** — Native Send, Receive, and Swap workflows with integrated QR scanning & dynamic gas estimation
+- 🚀 **Crimson Onyx Design** — Signature glassmorphic UI powered by React Native Reanimated for 60fps performance
+- 🌍 **Production-Ready** — Optimized for both Android (APK) and Web (Vercel) with localized seed phrase encryption
+
+</details>
+
+
 ---
 
 ## 🌐 Web2 Projects
